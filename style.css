@@ -1,0 +1,37 @@
+.logo {
+	float: left;
+}
+
+.bar {
+display: flex;
+flex-wrap: no-wrap;
+background-color: blue;
+justify-content: space-between;
+align-items: center;
+
+}
+
+div div {
+	display:flex;
+
+    justify-content: center;
+	flex: 0 1 15%;
+	background-color: gray;
+}
+
+a:link {
+  color: blue;
+  background-color: black;
+}
+
+a:visited {
+  color: pink;
+}
+#formdiv {
+  height:30%;
+  width:60%;
+  display:flex;
+  background-color:aquamarine;
+  justify-content: center;
+  align-items: center;
+}
